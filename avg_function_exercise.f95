@@ -1,6 +1,7 @@
 program func
 !demonstrating use of user defined functions
 implicit none
+! declare with precision for real big numbers 
 integer, parameter :: ikind=selected_real_kind(p=15)
 real (kind=ikind) ,allocatable, dimension(:)::list
 real (kind=ikind) :: average
